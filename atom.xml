@@ -6,7 +6,7 @@
   <link href="https://kagari306.github.io/atom.xml" rel="self"/>
   
   <link href="https://kagari306.github.io/"/>
-  <updated>2024-12-30T17:22:21.749Z</updated>
+  <updated>2025-01-13T16:07:56.809Z</updated>
   <id>https://kagari306.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>autodl服务器抢购脚本</title>
+    <link href="https://kagari306.github.io/2025/01/14/autodl%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8A%A2%E8%B4%AD%E8%84%9A%E6%9C%AC/"/>
+    <id>https://kagari306.github.io/2025/01/14/autodl%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8A%A2%E8%B4%AD%E8%84%9A%E6%9C%AC/</id>
+    <published>2025-01-13T16:02:30.000Z</published>
+    <updated>2025-01-13T16:07:56.809Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近autodl的gpu有点难抢，所以写了个脚本，自动抢gpu）<br>实际上也没什么技术含量，就是模拟点击，然后判断价格是否在指定区间内，如果是就点击购买，否则就跳过<br>复制代码贴到f12的console里，然后按回车就可以自动抢购了</p><span id="more"></span><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> money_range = [<span class="number">0.5</span>,<span class="number">0.66</span>]; <span class="comment">// 设置价格区间（直接修改数字就行,这里是抢1080和TITAN Xp）</span></span><br><span class="line"><span class="keyword">var</span> region_range = [<span class="string">&#x27;重庆A区&#x27;</span>,<span class="string">&#x27;北京B区&#x27;</span>, <span class="string">&#x27;北京A区 H20&#x27;</span>, <span class="string">&#x27;佛山区&#x27;</span>, <span class="string">&#x27;内蒙A区&#x27;</span>]; <span class="comment">// 设置过滤地区（这个列表是排除在外的地区列表）</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> congrats = <span class="literal">false</span>;</span><br><span class="line"><span class="keyword">var</span> node_list = <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&quot;.list-filter .filter-item .el-radio-group&quot;</span>).<span class="property">children</span>;</span><br><span class="line"><span class="keyword">var</span> start = <span class="keyword">function</span> <span class="title function_">start</span>(<span class="params">i</span>) &#123;</span><br><span class="line">  <span class="keyword">if</span> (congrats) <span class="keyword">return</span>;</span><br><span class="line">  <span class="keyword">if</span> (region_range.<span class="title function_">indexOf</span>(node_list[i].<span class="property">textContent</span>.<span class="title function_">trim</span>()) !== -<span class="number">1</span>) &#123;</span><br><span class="line">    <span class="keyword">if</span> (i &gt;= node_list.<span class="property">length</span> - <span class="number">1</span>) &#123;</span><br><span class="line">      <span class="title function_">start</span>(<span class="number">0</span>);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">      <span class="title function_">start</span>(++i);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">var</span> node = node_list[i];</span><br><span class="line">  node.<span class="title function_">click</span>();</span><br><span class="line">  <span class="keyword">var</span> timer = <span class="built_in">setTimeout</span>(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> _document$querySelect;</span><br><span class="line">    <span class="keyword">var</span> num = ((_document$querySelect = <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&quot;.pay-wrap .pay-right .price .sum&quot;</span>).<span class="property">children</span>[<span class="number">1</span>].<span class="title function_">getElementsByClassName</span>(<span class="string">&quot;num&quot;</span>)[<span class="number">0</span>]) === <span class="literal">null</span> || _document$querySelect === <span class="keyword">void</span> <span class="number">0</span> ? <span class="keyword">void</span> <span class="number">0</span> : _document$querySelect.<span class="property">textContent</span>) || -<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span> (<span class="title class_">Number</span>(num) &gt;= money_range[<span class="number">0</span>] &amp;&amp; <span class="title class_">Number</span>(num) &lt;= money_range[<span class="number">1</span>]) &#123;</span><br><span class="line">      <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&quot;.operation .el-button--primary&quot;</span>).<span class="title function_">click</span>();</span><br><span class="line">      congrats = <span class="literal">true</span>;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;恭喜！抢到了&quot;</span>);</span><br><span class="line">      <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(node.<span class="property">textContent</span> + <span class="string">&quot;暂时没有，下一个&quot;</span>);</span><br><span class="line">    <span class="keyword">if</span> (i &gt;= node_list.<span class="property">length</span> - <span class="number">1</span>) &#123;</span><br><span class="line">      <span class="title function_">start</span>(<span class="number">0</span>);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">      <span class="title function_">start</span>(++i);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">clearTimeout</span>(timer)</span><br><span class="line">  &#125;, <span class="number">1000</span>);</span><br><span class="line">&#125;;</span><br><span class="line"><span class="title function_">start</span>(<span class="number">0</span>);</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;最近autodl的gpu有点难抢，所以写了个脚本，自动抢gpu）&lt;br&gt;实际上也没什么技术含量，就是模拟点击，然后判断价格是否在指定区间内，如果是就点击购买，否则就跳过&lt;br&gt;复制代码贴到f12的console里，然后按回车就可以自动抢购了&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="script" scheme="https://kagari306.github.io/categories/script/"/>
+    
+    
+    <category term="code" scheme="https://kagari306.github.io/tags/code/"/>
+    
+    <category term="javascript" scheme="https://kagari306.github.io/tags/javascript/"/>
+    
+    <category term="autodl" scheme="https://kagari306.github.io/tags/autodl/"/>
+    
+    <category term="服务器" scheme="https://kagari306.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>error: ‘AT_CHECK’ was not declared in this scope</title>

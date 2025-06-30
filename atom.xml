@@ -153,9 +153,9 @@
     
     <category term="python" scheme="https://kagari306.win/tags/python/"/>
     
-    <category term="code" scheme="https://kagari306.win/tags/code/"/>
-    
     <category term="cuda" scheme="https://kagari306.win/tags/cuda/"/>
+    
+    <category term="code" scheme="https://kagari306.win/tags/code/"/>
     
     <category term="cpp" scheme="https://kagari306.win/tags/cpp/"/>
     
@@ -185,9 +185,9 @@
     
     <category term="python" scheme="https://kagari306.win/tags/python/"/>
     
-    <category term="cuda" scheme="https://kagari306.win/tags/cuda/"/>
-    
     <category term="pytorch" scheme="https://kagari306.win/tags/pytorch/"/>
+    
+    <category term="cuda" scheme="https://kagari306.win/tags/cuda/"/>
     
   </entry>
   

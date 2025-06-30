@@ -3,11 +3,11 @@
   <title>KagariのBlog</title>
   
   
-  <link href="https://kagari306.github.io/atom.xml" rel="self"/>
+  <link href="https://kagari306.win/atom.xml" rel="self"/>
   
-  <link href="https://kagari306.github.io/"/>
+  <link href="https://kagari306.win/"/>
   <updated>2025-01-17T07:17:45.003Z</updated>
-  <id>https://kagari306.github.io/</id>
+  <id>https://kagari306.win/</id>
   
   <author>
     <name>Kagari 306</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>AttributeError: module &#39;tensorflow&#39; has no attribute &#39;compat&#39;</title>
-    <link href="https://kagari306.github.io/2025/01/17/AttributeError-module-tensorflow-has-no-attribute-compat/"/>
-    <id>https://kagari306.github.io/2025/01/17/AttributeError-module-tensorflow-has-no-attribute-compat/</id>
+    <link href="https://kagari306.win/2025/01/17/AttributeError-module-tensorflow-has-no-attribute-compat/"/>
+    <id>https://kagari306.win/2025/01/17/AttributeError-module-tensorflow-has-no-attribute-compat/</id>
     <published>2025-01-17T07:09:56.000Z</published>
     <updated>2025-01-17T07:17:45.003Z</updated>
     
@@ -31,23 +31,23 @@
     
     
     
-    <category term="problem" scheme="https://kagari306.github.io/categories/problem/"/>
+    <category term="problem" scheme="https://kagari306.win/categories/problem/"/>
     
     
-    <category term="problem" scheme="https://kagari306.github.io/tags/problem/"/>
+    <category term="problem" scheme="https://kagari306.win/tags/problem/"/>
     
-    <category term="python" scheme="https://kagari306.github.io/tags/python/"/>
+    <category term="python" scheme="https://kagari306.win/tags/python/"/>
     
-    <category term="conda" scheme="https://kagari306.github.io/tags/conda/"/>
+    <category term="conda" scheme="https://kagari306.win/tags/conda/"/>
     
-    <category term="tensorflow" scheme="https://kagari306.github.io/tags/tensorflow/"/>
+    <category term="tensorflow" scheme="https://kagari306.win/tags/tensorflow/"/>
     
   </entry>
   
   <entry>
     <title>wsl: 检测到 localhost 代理配置，但未镜像到 WSL。NAT 模式下的 WSL 不支持 localhost 代理。</title>
-    <link href="https://kagari306.github.io/2025/01/14/wsl-%E6%A3%80%E6%B5%8B%E5%88%B0-localhost-%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE%EF%BC%8C%E4%BD%86%E6%9C%AA%E9%95%9C%E5%83%8F%E5%88%B0-WSL%E3%80%82NAT-%E6%A8%A1%E5%BC%8F%E4%B8%8B%E7%9A%84-WSL-%E4%B8%8D%E6%94%AF%E6%8C%81-localhost-%E4%BB%A3%E7%90%86%E3%80%82/"/>
-    <id>https://kagari306.github.io/2025/01/14/wsl-%E6%A3%80%E6%B5%8B%E5%88%B0-localhost-%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE%EF%BC%8C%E4%BD%86%E6%9C%AA%E9%95%9C%E5%83%8F%E5%88%B0-WSL%E3%80%82NAT-%E6%A8%A1%E5%BC%8F%E4%B8%8B%E7%9A%84-WSL-%E4%B8%8D%E6%94%AF%E6%8C%81-localhost-%E4%BB%A3%E7%90%86%E3%80%82/</id>
+    <link href="https://kagari306.win/2025/01/14/wsl-%E6%A3%80%E6%B5%8B%E5%88%B0-localhost-%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE%EF%BC%8C%E4%BD%86%E6%9C%AA%E9%95%9C%E5%83%8F%E5%88%B0-WSL%E3%80%82NAT-%E6%A8%A1%E5%BC%8F%E4%B8%8B%E7%9A%84-WSL-%E4%B8%8D%E6%94%AF%E6%8C%81-localhost-%E4%BB%A3%E7%90%86%E3%80%82/"/>
+    <id>https://kagari306.win/2025/01/14/wsl-%E6%A3%80%E6%B5%8B%E5%88%B0-localhost-%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE%EF%BC%8C%E4%BD%86%E6%9C%AA%E9%95%9C%E5%83%8F%E5%88%B0-WSL%E3%80%82NAT-%E6%A8%A1%E5%BC%8F%E4%B8%8B%E7%9A%84-WSL-%E4%B8%8D%E6%94%AF%E6%8C%81-localhost-%E4%BB%A3%E7%90%86%E3%80%82/</id>
     <published>2025-01-13T16:09:43.000Z</published>
     <updated>2025-01-17T07:10:54.712Z</updated>
     
@@ -59,23 +59,23 @@
     
     
     
-    <category term="problem" scheme="https://kagari306.github.io/categories/problem/"/>
+    <category term="problem" scheme="https://kagari306.win/categories/problem/"/>
     
     
-    <category term="windows" scheme="https://kagari306.github.io/tags/windows/"/>
+    <category term="windows" scheme="https://kagari306.win/tags/windows/"/>
     
-    <category term="os" scheme="https://kagari306.github.io/tags/os/"/>
+    <category term="os" scheme="https://kagari306.win/tags/os/"/>
     
-    <category term="wsl" scheme="https://kagari306.github.io/tags/wsl/"/>
+    <category term="wsl" scheme="https://kagari306.win/tags/wsl/"/>
     
-    <category term="代理" scheme="https://kagari306.github.io/tags/%E4%BB%A3%E7%90%86/"/>
+    <category term="代理" scheme="https://kagari306.win/tags/%E4%BB%A3%E7%90%86/"/>
     
   </entry>
   
   <entry>
     <title>autodl服务器抢购脚本</title>
-    <link href="https://kagari306.github.io/2025/01/14/autodl%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8A%A2%E8%B4%AD%E8%84%9A%E6%9C%AC/"/>
-    <id>https://kagari306.github.io/2025/01/14/autodl%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8A%A2%E8%B4%AD%E8%84%9A%E6%9C%AC/</id>
+    <link href="https://kagari306.win/2025/01/14/autodl%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8A%A2%E8%B4%AD%E8%84%9A%E6%9C%AC/"/>
+    <id>https://kagari306.win/2025/01/14/autodl%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8A%A2%E8%B4%AD%E8%84%9A%E6%9C%AC/</id>
     <published>2025-01-13T16:02:30.000Z</published>
     <updated>2025-01-13T16:07:56.809Z</updated>
     
@@ -86,23 +86,23 @@
     
     
     
-    <category term="script" scheme="https://kagari306.github.io/categories/script/"/>
+    <category term="script" scheme="https://kagari306.win/categories/script/"/>
     
     
-    <category term="code" scheme="https://kagari306.github.io/tags/code/"/>
+    <category term="code" scheme="https://kagari306.win/tags/code/"/>
     
-    <category term="javascript" scheme="https://kagari306.github.io/tags/javascript/"/>
+    <category term="javascript" scheme="https://kagari306.win/tags/javascript/"/>
     
-    <category term="autodl" scheme="https://kagari306.github.io/tags/autodl/"/>
+    <category term="autodl" scheme="https://kagari306.win/tags/autodl/"/>
     
-    <category term="服务器" scheme="https://kagari306.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <category term="服务器" scheme="https://kagari306.win/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>error: ‘AT_CHECK’ was not declared in this scope</title>
-    <link href="https://kagari306.github.io/2024/12/31/error-%E2%80%98AT-CHECK%E2%80%99-was-not-declared-in-this-scope/"/>
-    <id>https://kagari306.github.io/2024/12/31/error-%E2%80%98AT-CHECK%E2%80%99-was-not-declared-in-this-scope/</id>
+    <link href="https://kagari306.win/2024/12/31/error-%E2%80%98AT-CHECK%E2%80%99-was-not-declared-in-this-scope/"/>
+    <id>https://kagari306.win/2024/12/31/error-%E2%80%98AT-CHECK%E2%80%99-was-not-declared-in-this-scope/</id>
     <published>2024-12-30T17:13:23.000Z</published>
     <updated>2025-01-17T07:11:15.752Z</updated>
     
@@ -113,25 +113,25 @@
     
     
     
-    <category term="problem" scheme="https://kagari306.github.io/categories/problem/"/>
+    <category term="problem" scheme="https://kagari306.win/categories/problem/"/>
     
     
-    <category term="problem" scheme="https://kagari306.github.io/tags/problem/"/>
+    <category term="problem" scheme="https://kagari306.win/tags/problem/"/>
     
-    <category term="python" scheme="https://kagari306.github.io/tags/python/"/>
+    <category term="python" scheme="https://kagari306.win/tags/python/"/>
     
-    <category term="cuda" scheme="https://kagari306.github.io/tags/cuda/"/>
+    <category term="cuda" scheme="https://kagari306.win/tags/cuda/"/>
     
-    <category term="cpp" scheme="https://kagari306.github.io/tags/cpp/"/>
+    <category term="cpp" scheme="https://kagari306.win/tags/cpp/"/>
     
-    <category term="code" scheme="https://kagari306.github.io/tags/code/"/>
+    <category term="code" scheme="https://kagari306.win/tags/code/"/>
     
   </entry>
   
   <entry>
     <title>The detected CUDA version (x.x) mismatches the version that was used to compile PyTorch (x.x).</title>
-    <link href="https://kagari306.github.io/2024/12/28/The-detected-CUDA-version-1x-x-mismatches-the-version-that-was-used-to-compile-PyTorch-1x-x/"/>
-    <id>https://kagari306.github.io/2024/12/28/The-detected-CUDA-version-1x-x-mismatches-the-version-that-was-used-to-compile-PyTorch-1x-x/</id>
+    <link href="https://kagari306.win/2024/12/28/The-detected-CUDA-version-1x-x-mismatches-the-version-that-was-used-to-compile-PyTorch-1x-x/"/>
+    <id>https://kagari306.win/2024/12/28/The-detected-CUDA-version-1x-x-mismatches-the-version-that-was-used-to-compile-PyTorch-1x-x/</id>
     <published>2024-12-27T16:30:53.000Z</published>
     <updated>2025-01-17T07:10:56.912Z</updated>
     
@@ -145,23 +145,23 @@
     
     
     
-    <category term="problem" scheme="https://kagari306.github.io/categories/problem/"/>
+    <category term="problem" scheme="https://kagari306.win/categories/problem/"/>
     
     
-    <category term="python" scheme="https://kagari306.github.io/tags/python/"/>
+    <category term="python" scheme="https://kagari306.win/tags/python/"/>
     
-    <category term="pytorch" scheme="https://kagari306.github.io/tags/pytorch/"/>
+    <category term="pytorch" scheme="https://kagari306.win/tags/pytorch/"/>
     
-    <category term="conda" scheme="https://kagari306.github.io/tags/conda/"/>
+    <category term="conda" scheme="https://kagari306.win/tags/conda/"/>
     
-    <category term="cuda" scheme="https://kagari306.github.io/tags/cuda/"/>
+    <category term="cuda" scheme="https://kagari306.win/tags/cuda/"/>
     
   </entry>
   
   <entry>
     <title>PowerShell：因为在此系统上禁止运行脚本</title>
-    <link href="https://kagari306.github.io/2024/12/28/PowerShell%EF%BC%9A%E5%9B%A0%E4%B8%BA%E5%9C%A8%E6%AD%A4%E7%B3%BB%E7%BB%9F%E4%B8%8A%E7%A6%81%E6%AD%A2%E8%BF%90%E8%A1%8C%E8%84%9A%E6%9C%AC/"/>
-    <id>https://kagari306.github.io/2024/12/28/PowerShell%EF%BC%9A%E5%9B%A0%E4%B8%BA%E5%9C%A8%E6%AD%A4%E7%B3%BB%E7%BB%9F%E4%B8%8A%E7%A6%81%E6%AD%A2%E8%BF%90%E8%A1%8C%E8%84%9A%E6%9C%AC/</id>
+    <link href="https://kagari306.win/2024/12/28/PowerShell%EF%BC%9A%E5%9B%A0%E4%B8%BA%E5%9C%A8%E6%AD%A4%E7%B3%BB%E7%BB%9F%E4%B8%8A%E7%A6%81%E6%AD%A2%E8%BF%90%E8%A1%8C%E8%84%9A%E6%9C%AC/"/>
+    <id>https://kagari306.win/2024/12/28/PowerShell%EF%BC%9A%E5%9B%A0%E4%B8%BA%E5%9C%A8%E6%AD%A4%E7%B3%BB%E7%BB%9F%E4%B8%8A%E7%A6%81%E6%AD%A2%E8%BF%90%E8%A1%8C%E8%84%9A%E6%9C%AC/</id>
     <published>2024-12-27T16:04:14.000Z</published>
     <updated>2025-01-17T07:11:06.472Z</updated>
     
@@ -172,16 +172,16 @@
     
     
     
-    <category term="problem" scheme="https://kagari306.github.io/categories/problem/"/>
+    <category term="problem" scheme="https://kagari306.win/categories/problem/"/>
     
     
-    <category term="powershell" scheme="https://kagari306.github.io/tags/powershell/"/>
+    <category term="powershell" scheme="https://kagari306.win/tags/powershell/"/>
     
-    <category term="windows" scheme="https://kagari306.github.io/tags/windows/"/>
+    <category term="windows" scheme="https://kagari306.win/tags/windows/"/>
     
-    <category term="problem" scheme="https://kagari306.github.io/tags/problem/"/>
+    <category term="problem" scheme="https://kagari306.win/tags/problem/"/>
     
-    <category term="os" scheme="https://kagari306.github.io/tags/os/"/>
+    <category term="os" scheme="https://kagari306.win/tags/os/"/>
     
   </entry>
   
